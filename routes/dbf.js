@@ -15,6 +15,7 @@ const createDbf = async (templatePath, data) => {
         orderItems.forEach((item, index) => {
             if (index === 0) {
                 records.push({
+                    G_NUMER: 'ZK/MS/02064/03/2021',
                     G_ODB_NIP: nip,
                     G_NAB_NIP: nip,
                     P_INDEKS: item.position,
